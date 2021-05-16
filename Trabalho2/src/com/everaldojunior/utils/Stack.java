@@ -4,7 +4,7 @@ package com.everaldojunior.utils;
 public class Stack
 {
     //Primeiro nó da pilha
-    private Node firstNode;
+    private Node<Integer> firstNode;
     //Tamanho da pilha
     private int size;
 
@@ -18,7 +18,7 @@ public class Stack
     public void Push(int id)
     {
         //Cria um novo nó e adiciona no topo da lista
-        var node = new Node(id, firstNode);
+        var node = new Node<>(id, firstNode);
         this.firstNode = node;
         this.size++;
     }

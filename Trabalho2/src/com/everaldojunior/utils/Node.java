@@ -1,15 +1,16 @@
 package com.everaldojunior.utils;
 
-public class Node
+//Um nó genérico
+public class Node<T>
 {
     //Tipo do ingresso
-    private int type;
+    private T data;
     //Próximo nó
-    private Node nextNode;
+    private Node<T> nextNode;
 
-    public Node(int type, Node next)
+    public Node(T data, Node next)
     {
-        this.type = type;
+        this.data = data;
         this.nextNode = next;
     }
 
@@ -20,14 +21,14 @@ public class Node
     }
 
     //Pega o próximo nó
-    public Node GetNextNode()
+    public Node<T> GetNextNode()
     {
         return this.nextNode;
     }
 
     //Retorna o tipo do ingresso
-    public int GetType()
+    public T GetType()
     {
-        return type;
+        return data;
     }
 }
