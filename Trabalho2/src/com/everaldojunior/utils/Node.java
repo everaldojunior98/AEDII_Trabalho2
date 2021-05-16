@@ -27,7 +27,7 @@ public class Node<T>
     }
 
     //Retorna o tipo do ingresso
-    public T GetType()
+    public T GetData()
     {
         return data;
     }
