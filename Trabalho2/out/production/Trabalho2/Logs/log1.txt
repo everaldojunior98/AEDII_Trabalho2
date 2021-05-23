@@ -1,5 +1,55 @@
 ========================================================
 INICIO DA EXECUÇÃO
-================================================================================================================
+========================================================
+Iniciado uma fila de no máximo 3 elementos
+
+Adicionando o item [1] na posição [0] da fila
+Fila [0, 0, 0, ]
+
+Adicionando o item [2] na posição [1] da fila
+Fila [1, 0, 0, ]
+
+Adicionando o item [3] na posição [2] da fila
+Fila [1, 2, 0, ]
+Iniciado uma pilha
+
+Adicionando o item [5] na pilha
+Pilha [5, ]
+
+Adicionando o item [4] na pilha
+Pilha [4, 5, ]
+
+Adicionando o item [1] na pilha
+Pilha [1, 4, 5, ]
+Iniciado uma lista encadeada
+
+Removendo o item [1] da fila
+Fila [2, 3, 0, ]
+
+Removendo o item [1] da pilha
+Pilha [4, 5, ]
+
+Adicionado o item [{1, 1}] na lista encadeada
+Lista encadeada [{1, 1}, ]
+
+Removendo o item [2] da fila
+Fila [3, 0, 0, ]
+
+Removendo o item [4] da pilha
+Pilha [5, ]
+
+Adicionado o item [{2, 4}] na lista encadeada
+Lista encadeada [{1, 1}, {2, 4}, ]
+
+Removendo o item [3] da fila
+Fila [0, 0, 0, ]
+
+Removendo o item [5] da pilha
+Pilha []
+
+Adicionado o item [{3, 5}] na lista encadeada
+Lista encadeada [{1, 1}, {2, 4}, {3, 5}, ]
+
+========================================================
 FIM DA EXECUÇÃO
 ========================================================
